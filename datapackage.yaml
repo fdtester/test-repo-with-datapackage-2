@@ -4,7 +4,6 @@
 
 resources:
   - name: capitals
-    type: table
     path: data/capitals.csv
     scheme: file
     format: csv
