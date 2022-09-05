@@ -5,6 +5,7 @@ resources:
     format: csv
     encoding: utf-8
     mediatype: text/csv
+    type: table
     schema:
       fields:
         - name: id
