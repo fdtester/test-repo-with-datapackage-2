@@ -1,18 +1,7 @@
-# --------
-# metadata: data/capitals.csv
-# --------
-
+name: package-yaml
 resources:
   - name: capitals
-    type: table
     path: data/capitals.csv
-    scheme: file
-    format: csv
-    encoding: utf-8
-    mediatype: text/csv
-    dialect:
-      csv:
-        skipInitialSpace: true
     schema:
       fields:
         - name: id
