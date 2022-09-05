@@ -2,6 +2,9 @@ name: package-yaml
 resources:
   - name: capitals
     path: data/capitals.csv
+    format: csv
+    encoding: utf-8
+    mediatype: text/csv
     schema:
       fields:
         - name: id
